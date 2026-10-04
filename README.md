@@ -2,6 +2,8 @@
 
 Mods for [Claude Code](https://claude.com/claude-code): panes, games and toys to have open while your agents work.
 
+![Severance MDR: refining scary numbers into bins](docs/severance-mdr.gif)
+
 ## Install
 
 Add this repo as a plugin marketplace once, in Claude Code:
@@ -47,3 +49,5 @@ claude plugin validate .claude-plugin/marketplace.json
 To add a mod, create `plugins/<mod>/` and add an entry for it to `.claude-plugin/marketplace.json`.
 
 To release a change, bump `version` in that mod's `.claude-plugin/plugin.json` and push.
+
+To record the GIF at the top of this README again after changing severance-mdr, run `bun scripts/record-mdr.ts`. It needs Bun, ImageMagick and Edge or Chrome.
