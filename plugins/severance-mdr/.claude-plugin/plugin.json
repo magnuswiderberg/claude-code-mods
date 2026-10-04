@@ -1,0 +1,7 @@
+{
+  "name": "severance-mdr",
+  "version": "0.1.0",
+  "description": "Macrodata Refinement while your agents work: find the scary numbers and bin them.",
+  "author": { "name": "Magnus Widerberg" },
+  "types": "./types/index.d.ts"
+}

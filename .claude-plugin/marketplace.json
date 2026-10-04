@@ -1,0 +1,12 @@
+{
+  "name": "magnus-mods",
+  "owner": { "name": "Magnus Widerberg" },
+  "description": "Mods for Claude Code: panes, games and toys to have open while your agents work.",
+  "plugins": [
+    {
+      "name": "severance-mdr",
+      "source": "./plugins/severance-mdr",
+      "description": "Macrodata Refinement while your agents work: find the scary numbers and bin them."
+    }
+  ]
+}
